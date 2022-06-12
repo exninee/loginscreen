@@ -8,3 +8,4 @@
 ![Screenshot](https://media.discordapp.net/attachments/896737812064383077/985557130532774038/signup.PNG?width=919&height=465)
 - The site has a simple and pleasant design.
 - You can review and develop the site as you wish.
+- I added a few simple visual effects that I created with css to the site, I hope you like it.
