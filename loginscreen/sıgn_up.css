@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /** font belirtir**/
+}
+
+body{
+    background: #262626 url(https://static.vecteezy.com/system/resources/previews/002/037/924/original/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg); /** arka plan rengini değiştirir**/ 
+    background-size: cover; /** eğer resim taşarsa resmi tam yerleştirir**/
+    display: flex; /** formu ortalar**/
+    align-items: center; /** formu ortalar**/
+    justify-content: center; /** formu ortalar **/ 
+    min-height: 100vh; /** formu ekranın ortasına getirir**/
+}
+
+form{
+    background: #262626; /** formun arka planını değiştirir**/
+    padding: 20px; /** dolguyu 20px yapar**/
+    display: inline-flex;
+    flex-direction: column; /** formun alt alta sıralanmasını sağlar **/
+    align-items: center; /** forma daha hoş bir hava katar**/
+    border-radius: 10px; /** formu biraz daha yuvarlak yapıyor**/
+    box-shadow:  0 0 10px rgba(0,0,0,.8); /** siyah bir gölgelendirme verir**/
+    width: 300px; /** genişliği belirler**/
+    height: 550px;/** yüksekliği belirler**/
+}
+
+form h2{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 30px; /**form h2 ile inputlar arasında 20px boşluk olsun **/
+    margin: 40px;
+}
+
+form input{
+    background: none; /** arkaplanı siler**/   
+    border: none; /** geriye kalan kutuları siler**/
+    padding: 10px; /** inputlar arası boşluğu açar**/
+    margin: 20px; /** inputlar arası boşluğu açar**/
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+    transition: 0.3s linear; /*?basit bir animasyon verir ?*/
+    
+    
+}
+
+form input[type = "text"] , form input[type = "password"] { /*! form tagı içindeki inputları değeri "text" ve "password" olanların!*/
+    border: solid 2px #1B9CFC; /*! kutularını 2px olarak ortaya çıkar ve rengini mavi yap!*/
+    width: 220px; /** text ve password inptutlarının genişliğini arttırır**/
+}
+
+form input[type = "submit"] {
+    border: solid 2px #55E6C1;
+    height: 50px; /** submit inputunun yüksekliğini arttırır**/
+    width: 100px; /** submit inputunun genişliğini arttırır**/
+}
+
+form input[type = "submit"]:hover{
+    background: #55E6C1; /*? fare ile butonun üstüne gelince buton yeşil renk olur?*/
+}
+
+
